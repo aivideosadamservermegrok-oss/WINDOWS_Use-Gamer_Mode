@@ -72,6 +72,7 @@ class ChatOpenAI(BaseChatLLM):
         self.base_url = base_url or os.environ.get("OPENAI_BASE_URL")
         self.temperature = temperature
         self.extra_body = extra_body
+        self.reasoning_effort = reasoning_effort
 
         self.client = OpenAI(
             api_key=self.api_key,
