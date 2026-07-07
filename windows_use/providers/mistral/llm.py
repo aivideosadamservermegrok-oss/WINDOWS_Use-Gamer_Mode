@@ -4,7 +4,7 @@ import os
 from collections.abc import AsyncIterator, Iterator
 from typing import Any, overload
 
-from mistralai import Mistral
+from mistralai.client import Mistral
 from pydantic import BaseModel
 
 from windows_use.messages import (

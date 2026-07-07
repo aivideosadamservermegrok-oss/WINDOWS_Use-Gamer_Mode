@@ -60,6 +60,7 @@ dependencies = [
     "typer>=0.15.0",
     "questionary>=2.0.0",
     "cryptography>=44.0.0",
+    "pytest-asyncio>=1.4.0"
 ]
 
 [project.scripts]
