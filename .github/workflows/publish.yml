@@ -8,7 +8,7 @@ on:
 jobs:
   publish:
     name: Build & Publish
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     environment: pypi
     permissions:
       id-token: write
